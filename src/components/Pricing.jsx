@@ -3,8 +3,8 @@ import Img from "../assets/image.svg";
 
 export const Pricing = () => {
   return (
-    <div className="px-4  mx-auto  ">
-      <div className="md:px-14 p-4 max-w-s mx-auto py-36  bg-white">
+    <div className="">
+      <div className="max-w-s py-36  bg-white">
         <div className="text-center ">
           <h2 className="md:text-5xl text-3xl font-extrabold text-secondary mb-2">
             Save 50% for 12 months
@@ -18,7 +18,7 @@ export const Pricing = () => {
         </div>
 
         <div className="-space-y-96">
-        <div className=" py-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10 md:w-8/12 mx-auto">
+        <div className=" py-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-10 md:w-7/12 mx-auto">
           <div className="group hover:bg-black border outline outline-offset-0 py-10 md:px-14 px-6 rounded-lg shadow-xl  bg-white">
             <h3 className="text-3xl text-left text-black group-hover:text-white">
               Lite
@@ -117,7 +117,7 @@ export const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className="py-52  bg-primary "></div>
+        <div className="py-72  bg-primary "></div>
       </div>
       </div>
     </div>
